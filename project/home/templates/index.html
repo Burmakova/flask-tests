@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% block content %}
 
-{% if current_user.is_authenticated() %}
+{% if current_user.is_authenticated %}
 <div class="panel panel-success">
     <div class="panel-body">
         <strong>Hi {{ current_user.name }}!</strong>
